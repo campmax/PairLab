@@ -1,0 +1,122 @@
+{
+  "end_exclusive": "2024-01-01",
+  "files": {
+    "BAC": {
+      "download_end_exclusive": "2026-10-03",
+      "download_start": "2010-01-01",
+      "first": "2010-01-04",
+      "fnv1a64": "b78c2a72020c0830",
+      "granularity": "1d",
+      "last": "2023-12-29",
+      "rows": 3522,
+      "sha256": "d237d3d2002b79193ec4c4ba79ce7ef35ab660dd6077570359a9019cfd21ccf5",
+      "splits_in_download": {}
+    },
+    "CVX": {
+      "download_end_exclusive": "2026-10-03",
+      "download_start": "2010-01-01",
+      "first": "2010-01-04",
+      "fnv1a64": "da51c04c5f20f42f",
+      "granularity": "1d",
+      "last": "2023-12-29",
+      "rows": 3522,
+      "sha256": "b38a550108eaced44d93ff5e060feb107d12e9a13f11f49a1c4804bb29e64054",
+      "splits_in_download": {}
+    },
+    "JPM": {
+      "download_end_exclusive": "2026-10-03",
+      "download_start": "2010-01-01",
+      "first": "2010-01-04",
+      "fnv1a64": "54c94ac505afb5e7",
+      "granularity": "1d",
+      "last": "2023-12-29",
+      "rows": 3522,
+      "sha256": "ae2ce446d6fc9f8ce736147887dee36e6a8fa3c757772e60663b5d316466308f",
+      "splits_in_download": {}
+    },
+    "KO": {
+      "download_end_exclusive": "2026-10-03",
+      "download_start": "2010-01-01",
+      "first": "2010-01-04",
+      "fnv1a64": "694f32de831b2cb0",
+      "granularity": "1d",
+      "last": "2023-12-29",
+      "rows": 3522,
+      "sha256": "f8c39e75787ad58e08dd108ba96e0573763b3b985fc6da01910fb3e8dfe7e70c",
+      "splits_in_download": {
+        "2012-08-13": 2.0
+      }
+    },
+    "MA": {
+      "download_end_exclusive": "2026-10-03",
+      "download_start": "2010-01-01",
+      "first": "2010-01-04",
+      "fnv1a64": "be51848bfb65441f",
+      "granularity": "1d",
+      "last": "2023-12-29",
+      "rows": 3522,
+      "sha256": "ee72eb9f2659797ffb69be99f4d0c217dd69a63d2dd729b8ae33fda819e7486e",
+      "splits_in_download": {
+        "2014-01-22": 10.0
+      }
+    },
+    "PEP": {
+      "download_end_exclusive": "2026-10-03",
+      "download_start": "2010-01-01",
+      "first": "2010-01-04",
+      "fnv1a64": "f1623b20040dfb2a",
+      "granularity": "1d",
+      "last": "2023-12-29",
+      "rows": 3522,
+      "sha256": "a371adfdcf27769925e116d9fe3492965b7f5615d86c921d67f57f81967a8a42",
+      "splits_in_download": {}
+    },
+    "SPY": {
+      "download_end_exclusive": "2026-10-03",
+      "download_start": "2010-01-01",
+      "first": "2010-01-04",
+      "fnv1a64": "7a60720c408a1923",
+      "granularity": "1d",
+      "last": "2023-12-29",
+      "rows": 3522,
+      "sha256": "d83e108e3f4b9bf99c3bf7fbc936a27de210882bac0230da549cc7221b735f45",
+      "splits_in_download": {}
+    },
+    "V": {
+      "download_end_exclusive": "2026-10-03",
+      "download_start": "2010-01-01",
+      "first": "2010-01-04",
+      "fnv1a64": "0bd90d745d6640bd",
+      "granularity": "1d",
+      "last": "2023-12-29",
+      "rows": 3522,
+      "sha256": "fef0385f27e34611c630792f1e1ac3a6301c8dd0bd5d268dd20cb1cfbc4fe401",
+      "splits_in_download": {
+        "2015-03-19": 4.0
+      }
+    },
+    "XOM": {
+      "download_end_exclusive": "2026-10-03",
+      "download_start": "2010-01-01",
+      "first": "2010-01-04",
+      "fnv1a64": "26c8bd35e25cd739",
+      "granularity": "1d",
+      "last": "2023-12-29",
+      "rows": 3522,
+      "sha256": "ff6539e51e06174cb889ef33692e72bd084f6124c3ee8ae29cb65fe623690808",
+      "splits_in_download": {}
+    }
+  },
+  "limitations": [
+    "Current surviving companies selected retrospectively; not a point-in-time universe.",
+    "Provider history can be revised; corporate action reconstruction depends on complete reported splits.",
+    "No historical borrow availability or intraday liquidity data.",
+    "For personal research; provider data rights are separate from code license."
+  ],
+  "price_basis": "reconstructed_as_traded",
+  "retrieved_utc": "2026-10-03T03:20:26.700664+00:00",
+  "schema": "pairlab.data.v1",
+  "source": "Yahoo Finance public daily chart endpoint",
+  "start": "2010-01-01",
+  "synthetic": false
+}

@@ -1,0 +1,7 @@
+{
+  "training_windows_checked": 192,
+  "daily_sleeve_values_reconciled": 12072,
+  "maximum_statistical_absolute_error": 2.9753977059954195e-13,
+  "maximum_equity_absolute_error_dollars": 1.4551915228366852e-11,
+  "status": "passed"
+}

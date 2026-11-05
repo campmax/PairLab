@@ -1,0 +1,176 @@
+{
+  "generated_at": 1791016277.2288263,
+  "max_age_seconds": 120.0,
+  "note": "Intraday indicative last-trade marks against a daily historical model; not executable quotes or a probability of profit.",
+  "pairs": [
+    {
+      "a": "KO",
+      "age_a": 45075.22882628441,
+      "age_b": 45077.22882628441,
+      "b": "PEP",
+      "candidate": false,
+      "current": false,
+      "direction": -1,
+      "id": "KO / PEP",
+      "issues": [
+        "Stale quote; no current signal",
+        "Outside current regular session",
+        "Residual unit-root screen failed (1%)",
+        "Hedge ratio outside allowed positive range",
+        "Reversion half-life outside allowed range",
+        "Hedge ratio unstable across training halves"
+      ],
+      "model": {
+        "adf": -0.3002695476983481,
+        "alpha": 0.32045612884580466,
+        "beta": 0.043181216662073876,
+        "beta_drift": 1.389900179598265,
+        "correlation": 0.5989335582833115,
+        "critical": -3.9183456741064546,
+        "eligible": false,
+        "half_life": 436.4281105640129,
+        "reasons": [
+          "Residual unit-root screen failed (1%)",
+          "Hedge ratio outside allowed positive range",
+          "Reversion half-life outside allowed range",
+          "Hedge ratio unstable across training halves"
+        ],
+        "sigma": 0.11132984677616753
+      },
+      "price_a": 85.65,
+      "price_b": 125.89,
+      "quote_date": "2026-10-02",
+      "quote_time_a": 1790971202.0,
+      "quote_time_b": 1790971200.0,
+      "session_close": 1790971200.0,
+      "session_open": 1790947800.0,
+      "spread_gap_log": 0.19938844290534627,
+      "train_end": "2026-10-01",
+      "z": 1.7909702445402944
+    },
+    {
+      "a": "XOM",
+      "age_a": 44946.22882628441,
+      "age_b": 44887.22882628441,
+      "b": "CVX",
+      "candidate": false,
+      "current": false,
+      "direction": 1,
+      "id": "XOM / CVX",
+      "issues": [
+        "Stale quote; no current signal",
+        "Pair quotes are not synchronized",
+        "Outside current regular session",
+        "Residual unit-root screen failed (1%)",
+        "Hedge ratio unstable across training halves"
+      ],
+      "model": {
+        "adf": -2.785222971117145,
+        "alpha": 0.06404670367018317,
+        "beta": 1.1559918827438598,
+        "beta_drift": 0.5400466052429562,
+        "correlation": 0.8377432087432746,
+        "critical": -3.9183456741064546,
+        "eligible": false,
+        "half_life": 24.169435233507507,
+        "reasons": [
+          "Residual unit-root screen failed (1%)",
+          "Hedge ratio unstable across training halves"
+        ],
+        "sigma": 0.043147742873363454
+      },
+      "price_a": 164.01,
+      "price_b": 206.69,
+      "quote_date": "2026-10-02",
+      "quote_time_a": 1790971331.0,
+      "quote_time_b": 1790971390.0,
+      "session_close": 1790971200.0,
+      "session_open": 1790947800.0,
+      "spread_gap_log": -0.012864177859349069,
+      "train_end": "2026-10-01",
+      "z": -0.2981425447237138
+    },
+    {
+      "a": "V",
+      "age_a": 45074.22882628441,
+      "age_b": 45074.22882628441,
+      "b": "MA",
+      "candidate": false,
+      "current": false,
+      "direction": -1,
+      "id": "V / MA",
+      "issues": [
+        "Stale quote; no current signal",
+        "Outside current regular session",
+        "Residual unit-root screen failed (1%)"
+      ],
+      "model": {
+        "adf": -2.3522562221455225,
+        "alpha": 0.06511717085922876,
+        "beta": 0.9987948980175239,
+        "beta_drift": 0.3417801885827355,
+        "correlation": 0.8796817648735228,
+        "critical": -3.9183456741064546,
+        "eligible": false,
+        "half_life": 41.629595985133236,
+        "reasons": [
+          "Residual unit-root screen failed (1%)"
+        ],
+        "sigma": 0.043153256442125684
+      },
+      "price_a": 360.66,
+      "price_b": 552.26,
+      "quote_date": "2026-10-02",
+      "quote_time_a": 1790971203.0,
+      "quote_time_b": 1790971203.0,
+      "session_close": 1790971200.0,
+      "session_open": 1790947800.0,
+      "spread_gap_log": 0.057302097888770276,
+      "train_end": "2026-10-01",
+      "z": 1.3278742466543652
+    },
+    {
+      "a": "JPM",
+      "age_a": 45075.22882628441,
+      "age_b": 45074.22882628441,
+      "b": "BAC",
+      "candidate": false,
+      "current": false,
+      "direction": -1,
+      "id": "JPM / BAC",
+      "issues": [
+        "Stale quote; no current signal",
+        "Outside current regular session",
+        "Residual unit-root screen failed (1%)"
+      ],
+      "model": {
+        "adf": -2.5056695119433563,
+        "alpha": 0.0920344932950017,
+        "beta": 0.9999370121754406,
+        "beta_drift": 0.2875124567533166,
+        "correlation": 0.8032579579466209,
+        "critical": -3.9183456741064546,
+        "eligible": false,
+        "half_life": 28.909040336513343,
+        "reasons": [
+          "Residual unit-root screen failed (1%)"
+        ],
+        "sigma": 0.047204750364633306
+      },
+      "price_a": 332.38,
+      "price_b": 53.75,
+      "quote_date": "2026-10-02",
+      "quote_time_a": 1790971202.0,
+      "quote_time_b": 1790971203.0,
+      "session_close": 1790971200.0,
+      "session_open": 1790947800.0,
+      "spread_gap_log": 0.05716865345251154,
+      "train_end": "2026-10-01",
+      "z": 1.2110783980618904
+    }
+  ],
+  "schema": "pairlab.live.v1",
+  "source": "Yahoo public chart endpoint \u00b7 indicative last trades; delay not guaranteed",
+  "synthetic": false,
+  "capture_note": "Archived connectivity test. Quotes were not current; no actionable signal or paper trade."
+}

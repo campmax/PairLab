@@ -1,0 +1,46 @@
+{
+  "training": 252,
+  "window": 21,
+  "adf_lag": 1,
+  "max_hold": 20,
+  "delay": 1,
+  "capital": 100000,
+  "entry": 2.5,
+  "exit": 0.5,
+  "stop": 4.0,
+  "slippage_bps": 5,
+  "commission": 1,
+  "borrow_rate": 0.03,
+  "margin_rate": 0.08,
+  "gross": 1.0,
+  "maintenance": 0.3,
+  "pair_stop": 0.1,
+  "min_beta": 0.2,
+  "max_beta": 5.0,
+  "min_half_life": 1,
+  "max_half_life": 60,
+  "max_beta_drift": 0.5,
+  "min_sigma": 0.005,
+  "start": "2012-01-01",
+  "end_exclusive": "2024-01-01",
+  "holdout_start": "2024-01-01",
+  "benchmark": "SPY",
+  "pairs": [
+    [
+      "KO",
+      "PEP"
+    ],
+    [
+      "XOM",
+      "CVX"
+    ],
+    [
+      "V",
+      "MA"
+    ],
+    [
+      "JPM",
+      "BAC"
+    ]
+  ]
+}
