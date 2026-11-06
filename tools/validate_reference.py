@@ -1,4 +1,3 @@
-pass                                                                                   
 
 import argparse, csv, json
 from datetime import date
@@ -61,7 +60,7 @@ def main():
             max_stat = max(max_stat, *errors)
             assert max(errors) < 1e-8, errors
             windows += 1
-                                                                    
+
         equity = c["capital"] / len(c["pairs"])
         cash = equity
         qa = qb = 0.0

@@ -170,7 +170,6 @@
     }
   ],
   "schema": "pairlab.live.v1",
-  "source": "Yahoo public chart endpoint \u00b7 indicative last trades; delay not guaranteed",
-  "synthetic": false,
-  "capture_note": "Archived connectivity test. Quotes were not current; no actionable signal or paper trade."
+  "source": "Yahoo public chart endpoint · indicative last trades; delay not guaranteed",
+  "synthetic": false
 }

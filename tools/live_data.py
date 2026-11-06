@@ -1,4 +1,3 @@
-pass                                                                       
 import json, math, time, urllib.parse, urllib.request
 from datetime import datetime, timezone
 
@@ -34,7 +33,7 @@ def normalize(result, now):
     history = []
     for d, close in zip(dates, closes):
         if d >= day:
-            continue                                                         
+            continue
         if close is None or not math.isfinite(float(close)) or float(close) <= 0:
             raise ValueError('Missing completed close; no silent filling')
         history.append({'date': d, 'close': float(close), 'dividend': divs.get(d, 0)})

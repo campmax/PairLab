@@ -1,8 +1,4 @@
-pass                                                                               
-                                                                                   
-                                                                               
-                                                                                   
-   
+
 
 import argparse, csv, hashlib, json, math, sys, time, urllib.request, urllib.parse
 from datetime import date, datetime, timezone
@@ -19,7 +15,7 @@ def fnv(data):
 
 
 def fetch_chart(symbol, start, end):
-                                                                                       
+
     since = int(datetime.combine(start, datetime.min.time(), timezone.utc).timestamp())
     until = int(
         datetime.combine(date.today(), datetime.min.time(), timezone.utc).timestamp()

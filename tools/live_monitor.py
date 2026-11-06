@@ -1,4 +1,3 @@
-pass                                                                            
 import argparse, concurrent.futures, json, math, os, random, subprocess, sys, threading, time, webbrowser
 from datetime import date, timedelta
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -17,7 +16,7 @@ def atomic(path, value):
 
 
 def append_journal(path, records):
-                                                                            
+
     if path.exists() and path.stat().st_size > 20*1024*1024:
         os.replace(path, path.with_name(path.stem+'.previous.jsonl'))
     with path.open('a',encoding='utf-8') as stream:
