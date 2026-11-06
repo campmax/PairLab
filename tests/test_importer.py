@@ -1,4 +1,4 @@
-"""Deterministic importer tests, no network and no third-party packages."""
+pass                                                                       
 
 import importlib.util, json, unittest
 from datetime import date, timedelta, datetime, timezone

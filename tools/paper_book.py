@@ -1,7 +1,7 @@
-"""Intraday shadow ledger at indicative trade prices, not broker execution.
-Requires independently advancing timestamps on BOTH legs. A candidate must
-persist for two observations, then fills on a third qualifying observation.
-"""
+pass                                                                       
+                                                                          
+                                                                           
+   
 import math
 
 
@@ -37,7 +37,7 @@ class PaperBook:
                 continue
             account['current'] = True
             if position:
-                # Calendar seconds, based on the last accepted marks; no interest on short proceeds.
+                                                                                                    
                 elapsed = max(0, now-position['mark_at'])
                 short = max(0, -position['qa']*position['mark_a']) + max(0, -position['qb']*position['mark_b'])
                 cost = (short*c['borrow_rate'] + max(0, short-account['cash'])*c['margin_rate'])*elapsed/(365*86400)

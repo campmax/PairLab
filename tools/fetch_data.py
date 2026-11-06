@@ -1,8 +1,8 @@
-"""Fetch a frozen personal-research dataset. C++ handles all strategy calculations.
-Yahoo OHLC/dividends are split-adjusted; reconstruct their then-current share units
-using ALL later splits, including splits after the requested research end date.
-Do not use dividend-adjusted OHLC and also book dividends: that double counts them.
-"""
+pass                                                                               
+                                                                                   
+                                                                               
+                                                                                   
+   
 
 import argparse, csv, hashlib, json, math, sys, time, urllib.request, urllib.parse
 from datetime import date, datetime, timezone
@@ -19,7 +19,7 @@ def fnv(data):
 
 
 def fetch_chart(symbol, start, end):
-    # Explicit period endpoints: range=max may be silently downsampled by the provider.
+                                                                                       
     since = int(datetime.combine(start, datetime.min.time(), timezone.utc).timestamp())
     until = int(
         datetime.combine(date.today(), datetime.min.time(), timezone.utc).timestamp()

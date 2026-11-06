@@ -82,7 +82,7 @@ inline double adfStatistic(const std::vector<double> &residual, int lag) {
     return r.coef[0] / r.se[0];
 }
                                                                                 
-/* Numerical coefficients from statsmodels (BSD license in third_party). */
+ 
 inline double egCritical(size_t observations) {
     double n = double(observations - 1);
     return -3.89644 - 10.9519 / n - 33.527 / (n * n);

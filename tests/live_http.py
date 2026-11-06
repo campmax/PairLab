@@ -1,4 +1,4 @@
-"""Local server integration test; pass path to the compiled live executable."""
+pass                                                                           
 import json,subprocess,sys,tempfile,time,urllib.request,urllib.error
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
